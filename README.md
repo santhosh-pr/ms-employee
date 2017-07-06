@@ -22,6 +22,7 @@ spring:
 
 server:
   port: 8000
+  
 spring:
   profiles:
     active: dev
