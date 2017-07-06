@@ -9,11 +9,15 @@
 
 **
 spring:
+
  *application:
+ 
     name: ms-employee*
    
  cloud:
+ 
     config:
+    
       uri: http://localhost:7000
       
       
