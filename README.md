@@ -1,7 +1,12 @@
 # ms-employee
  ## to read the property value from spring-cloud-config server
  
+ 
+ 
 `add bootstrap.yml` . -- looks for application name in config server
+
+
+
 **
 spring:
  application:
