@@ -9,8 +9,8 @@
 
 **
 spring:
- application:
-    name: ms-employee   
+ *application:
+    name: ms-employee*
    
  cloud:
     config:
