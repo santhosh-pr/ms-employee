@@ -3,14 +3,14 @@
  
  
  
-`add bootstrap.yml` . -- looks for application name in config server
+**add bootstrap.yml** . -- looks for application name in config server
 
 
 
-**
+`
 spring:
 
- *application:
+ application:
  
     name: ms-employee*
    
@@ -20,15 +20,18 @@ spring:
     
       uri: http://localhost:7000
       
-      
-**      
-`in applicatiuon.yml`
+`      
+     
+**in applicatiuon.yml**
 
 server:
+
   port: 8000
   
 spring:
+
   profiles:
+  
     active: dev
     
 
