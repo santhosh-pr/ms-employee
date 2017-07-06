@@ -12,7 +12,7 @@ spring:
 
  application:
  
-    name: ms-employee*
+    name: ms-employee
    
  cloud:
  
@@ -24,7 +24,7 @@ spring:
      
 **in applicatiuon.yml**
 
-server:
+`server:
 
   port: 8000
   
@@ -32,7 +32,7 @@ spring:
 
   profiles:
   
-    active: dev
+    active: dev`
     
 
-`add client dependency in pom.xml`
+*add client dependency in pom.xml*
