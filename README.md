@@ -36,3 +36,6 @@ spring:
     
 
 *add client dependency in pom.xml*
+
+
+*added feign client to call dept service.
