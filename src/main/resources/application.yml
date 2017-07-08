@@ -1,3 +1,13 @@
 server:
   port: 8000
-      
+
+management:
+  security:
+    enabled: false    
+---
+eureka:
+  instance:
+   preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/

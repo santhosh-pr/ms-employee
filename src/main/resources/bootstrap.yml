@@ -1,8 +1,9 @@
 spring:
  application:
-    name: ms-employee   
+    name: ms-employee-svc   
  profiles:
     active: dev
  cloud:
     config:
       uri: http://localhost:7000
+ 
